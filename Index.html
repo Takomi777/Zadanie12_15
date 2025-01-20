@@ -50,7 +50,20 @@
  </td>
  </tr>
  </table>
-<td align=center>
+<td align=center><tr>
+        <td colspan="3" align="center">
+          <h2>Księga gości</h2>
+          <form action="submit_guestbook.php" method="post">
+            <label for="name">Imię:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="message">Wiadomość:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+            <input type="submit" value="Zatwierdź wpis">
+          </form>
+        </td>
+      </tr>
  
  </td>
 </body>
